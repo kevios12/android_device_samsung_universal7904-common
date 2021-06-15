@@ -18,10 +18,7 @@ PRODUCT_PACKAGES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
-
-# FastCharge
-PRODUCT_PACKAGES += \
-    lineage.fastcharge@1.0-service.samsung
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Init scripts
 PRODUCT_PACKAGES += \
@@ -47,7 +44,6 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -65,10 +61,6 @@ PRODUCT_PACKAGES += \
     fastbootd \
     init.recovery.exynos7904.rc
 
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl.samsung-universal7904
@@ -83,14 +75,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # System properties
 -include $(LOCAL_PATH)/product_prop.mk
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
-
-# Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.samsung
 
 # Wifi
 PRODUCT_PACKAGES += \
