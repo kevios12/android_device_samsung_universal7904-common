@@ -16,7 +16,6 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 	<bool name="config_allowAutoBrightnessWhileDozing">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
-    <integer name="config_screenBrightnessDoze">1</integer>
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system/framework/arm64/boot-framework.oat"</item>
         <item>"/system/framework/framework.jar"</item>
