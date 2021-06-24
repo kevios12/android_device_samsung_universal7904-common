@@ -116,7 +116,6 @@ Return<void> Power::powerHint(PowerHint hint, int32_t data) {
         case PowerHint::LOW_POWER:
             setProfile(data ? PowerProfile::POWER_SAVE : PowerProfile::BALANCED);
             break;
-        
     }
     return Void();
 }
@@ -137,7 +136,6 @@ Return<void> Power::getPlatformLowPowerStats(getPlatformLowPowerStats_cb _hidl_c
     _hidl_cb({}, Status::SUCCESS);
     return Void();
 }
-
 
 void Power::initialize() {
     findInputNodes();
