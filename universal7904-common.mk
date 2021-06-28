@@ -90,3 +90,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/vndkcore.libraries.29.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v29/etc/vndkcore.libraries.29.txt \
     $(LOCAL_PATH)/configs/vndkprivate.libraries.29.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v29/etc/vndkprivate.libraries.29.txt \
     $(LOCAL_PATH)/configs/placeholder:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.v29/lib/libstagefright_foundation.so  
+
+# Charger
+PRODUCT_PACKAGES += \
+    product_charger_res_images
