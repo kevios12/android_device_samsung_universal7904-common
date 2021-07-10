@@ -36,6 +36,9 @@ TARGET_CAMERA_BOOTTIME_TIMESTAMP := true
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
 
+# Define device is a phone
+IS_PHONE := true
+
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true

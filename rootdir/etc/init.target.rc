@@ -795,6 +795,7 @@ on boot
     mkdir /dev/socket/mtp 0770 system mtp
 
 on property:sys.boot_completed=1
+
     # Disable hw watchdog
     write /dev/watchdog1 "V"
 
