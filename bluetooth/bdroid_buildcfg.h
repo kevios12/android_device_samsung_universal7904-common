@@ -2,6 +2,5 @@
 #define _BDROID_BUILDCFG_H
 
 #define BTM_ESCO_TRANSPORT_UNIT_SIZE_PCM16
-#define BTM_ESCO_TRANSPORT_UNIT_SIZE_PCM16 /* Bluetooth calls */
 
 #endif
