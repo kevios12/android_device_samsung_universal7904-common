@@ -94,3 +94,7 @@ PRODUCT_COPY_FILES += \
 # Charger
 PRODUCT_PACKAGES += \
     product_charger_res_images
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo
