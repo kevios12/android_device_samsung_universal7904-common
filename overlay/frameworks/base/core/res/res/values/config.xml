@@ -27,7 +27,7 @@
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
     <bool name="config_automatic_brightness_available">true</bool>
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    <bool name="config_dozeAlwaysOnEnabled">true</bool>
     <bool name="config_alt_ambient_display">true</bool>
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
     <!-- FULL SCREEN APPS -->

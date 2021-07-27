@@ -31,3 +31,6 @@ ro.product_ship=true
 
 # RILD debug level setting
 ro.debug_level=0x494d
+
+## Display
+ro.sf.lcd_density=420
